@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>AstroidBelt</title>
+</head>
+<body>
+	<div id="containerscore">
+		<h1>SCORE</h1>
+		<% @datas.each do |t| %>
+		<p class="opt"><%= t.joueur  %> <%= t.score  %></p>
+		<% end %>
+	</div>
+			<h3 class="opt menusco"><a href="index">Menu</a></h3>
+</body>
+</html>
